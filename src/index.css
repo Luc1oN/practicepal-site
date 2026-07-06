@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 150 60% 7%;
+    --foreground: 42 40% 94%;
+    --border: 120 10% 20%;
+    --ring: 75 88% 66%;
+    --muted: 105 12% 58%;
+    --muted-foreground: 120 10% 57%;
+    --radius: 0.75rem;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #081F17;
+    color: #F7F3E8;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #081F17;
+}
+::-webkit-scrollbar-thumb {
+  background: #8A9C8C;
+  border-radius: 3px;
+}
+
+/* Fraunces italic for taglines */
+.font-tagline {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+}
+
+/* Glassmorphism utility */
+.glass {
+  background: rgba(199, 212, 192, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(138, 156, 140, 0.15);
+}
+
+/* Court line grid background */
+.court-grid {
+  background-image:
+    linear-gradient(rgba(138, 156, 140, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(138, 156, 140, 0.04) 1px, transparent 1px);
+  background-size: 80px 80px;
+}
+
+/* Draw-in animation for SVG paths */
+@keyframes draw-line {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 3s ease-in-out infinite;
+}
+
+@keyframes ball-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.animate-ball {
+  animation: ball-bounce 2s ease-in-out infinite;
+}
