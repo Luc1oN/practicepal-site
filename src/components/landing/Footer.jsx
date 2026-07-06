@@ -12,7 +12,7 @@ export default function Footer() {
               <Logo size={32} />
             </div>
             <p className="text-sm text-sage-muted">
-              Built in Cork, Ireland 🇮🇪
+              Built in Ireland 🇮🇪
             </p>
           </div>
 
