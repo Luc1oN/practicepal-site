@@ -38,6 +38,12 @@ export default function Footer() {
             >
               Feedback & contact
             </a>
+            <a
+              href="/privacy.html"
+              className="text-sage hover:text-chalk transition-colors"
+            >
+              Privacy
+            </a>
           </div>
         </div>
 

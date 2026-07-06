@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy — PracticePal</title>
+<link rel="icon" type="image/png" sizes="32x32" href="https://luc1on.github.io/PracticePal/icons/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #081F17;
+    --chalk: #F7F3E8;
+    --sage: #C2CDBA;
+    --sage-muted: #8A9C8C;
+    --gold: #E8CF86;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', -apple-system, sans-serif;
+    background: var(--bg); color: var(--sage);
+    line-height: 1.65; padding: 48px 20px 80px;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  a { color: var(--gold); }
+  h1 { font-family: 'Fraunces', Georgia, serif; color: var(--chalk); font-size: 34px; margin-bottom: 6px; }
+  .updated { font-size: 13px; color: var(--sage-muted); margin-bottom: 36px; }
+  h2 { font-family: 'Fraunces', Georgia, serif; color: var(--chalk); font-size: 21px; margin: 34px 0 10px; }
+  p, li { font-size: 15px; margin-bottom: 10px; }
+  ul { padding-left: 22px; margin-bottom: 12px; }
+  .back { display: inline-block; margin-bottom: 32px; font-size: 14px; color: var(--sage-muted); text-decoration: none; }
+  .back:hover { color: var(--chalk); }
+  .lede { font-family: 'Fraunces', Georgia, serif; font-style: italic; font-size: 17px; color: var(--sage); margin-bottom: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="/">&larr; practicepal.ie</a>
+  <h1>Privacy</h1>
+  <p class="updated">Last updated: July 2026 · Applies to the PracticePal app and practicepal.ie</p>
+
+  <p class="lede">The short version: PracticePal works without an account, collects as little as possible, shows no ads, uses no third-party trackers, and never sells anything about you to anyone.</p>
+
+  <h2>Who runs PracticePal</h2>
+  <p>PracticePal is built and run by an individual developer in Cork, Ireland. For anything privacy-related, email <a href="mailto:practicepal.cork@gmail.com">practicepal.cork@gmail.com</a>.</p>
+
+  <h2>Using the app without an account</h2>
+  <p>You can generate and run sessions without signing up. When you do, we process:</p>
+  <ul>
+    <li><strong>Your session settings</strong> (players, courts, duration, level, and any focus text you type) — sent to our AI provider, Anthropic, to generate your plan. Don't put personal details in the focus box; it never needs any.</li>
+    <li><strong>A generation log</strong> — each generated session is stored for improving the product (for example, learning which kinds of sessions people actually create). It isn't tied to your name or email.</li>
+    <li><strong>An anonymous device identifier</strong> — a random ID stored in your browser, used only to enforce fair daily usage limits. It says nothing about who you are.</li>
+    <li><strong>Preferences on your device</strong> — things like your last-used settings and display theme live only in your own browser's storage, not on our servers.</li>
+  </ul>
+
+  <h2>If you create an account</h2>
+  <ul>
+    <li>We store your <strong>email address</strong> and a securely hashed password, managed by Supabase (our database provider).</li>
+    <li>Your <strong>saved sessions, favourites, and notes</strong> are stored against your account so they follow you across devices. Only you can see them.</li>
+  </ul>
+
+  <h2>Sharing and feedback</h2>
+  <ul>
+    <li>If you <strong>share a session link</strong>, that session becomes viewable by anyone who has the link. Don't share sessions containing anything you'd rather keep private.</li>
+    <li>If you submit <strong>post-session feedback</strong> (the drill ratings), it's stored for product improvement and isn't shown publicly.</li>
+    <li>If you <strong>join the beta</strong> on practicepal.ie, we store the name, email, and optional club/answers you give — used only to run the beta and contact you about it.</li>
+  </ul>
+
+  <h2>Where your data lives</h2>
+  <p>All data is stored with Supabase in the EU (Ireland, AWS eu-west-1). Session generation uses Anthropic's Claude API to produce your plan; only the session settings above are sent for that purpose.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li>No advertising, and no advertising trackers.</li>
+    <li>No third-party analytics scripts.</li>
+    <li>No selling or sharing of your data with anyone for their own purposes.</li>
+    <li>No marketing emails you didn't ask for.</li>
+  </ul>
+
+  <h2>Your rights</h2>
+  <p>You can ask at any time to see what we hold about you, or to have your account and its data deleted. Email <a href="mailto:practicepal.cork@gmail.com">practicepal.cork@gmail.com</a> from the address on your account and it'll be handled promptly — there's no self-serve delete button yet, so during the beta this is a manual (but fast) process.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes in any meaningful way, the date at the top changes with it, and anything significant will be flagged in the app or by email to beta participants.</p>
+</main>
+</body>
+</html>
