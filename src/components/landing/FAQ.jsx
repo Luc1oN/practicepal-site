@@ -21,6 +21,10 @@ const faqs = [
     a: 'It means the app is real and working — players use it weekly — but it\'s still being actively developed. You might hit the occasional rough edge. The upside: you have a direct line to the person building it, and your feedback shapes what comes next.',
   },
   {
+    q: 'How does the beta work?',
+    a: 'Signing up gets you one of a limited number of beta spots. You\'ll be added to a private WhatsApp group and an email list — that\'s where updates land, where you can flag bugs or ideas straight to the person building it, and where you can swap notes with other testers on what\'s working for their group. It\'s small and closed on purpose while the app is still taking shape, and it\'ll open up as PracticePal grows.',
+  },
+  {
     q: 'Is my data safe?',
     a: 'We collect minimal data (name, email for beta signup). The app itself stores sessions locally unless you sign in. Infrastructure is EU-hosted. No tracking, no selling data. We\'re a practice tool, not an ad platform.',
   },
