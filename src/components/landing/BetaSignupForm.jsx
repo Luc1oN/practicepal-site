@@ -43,7 +43,7 @@ export default function BetaSignupForm() {
             <h3 className="font-heading text-2xl text-chalk mb-2">You're in, {form.name.split(' ')[0]}.</h3>
             <p className="text-sage mb-4">You can start right now: open PracticePal, pick a practice style, and build tonight's session. Racquets and balls are all you need.</p>
             <a
-              href="https://luc1on.github.io/PracticePal/"
+              href="https://app.practicepal.ie/"
               className="inline-flex items-center gap-2 text-base font-semibold text-court-deep bg-lawn hover:bg-lawn/90 px-6 py-3 rounded-full transition-all duration-200 mb-6"
             >
               Open PracticePal <ArrowRight size={18} />

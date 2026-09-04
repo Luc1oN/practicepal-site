@@ -46,7 +46,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://luc1on.github.io/PracticePal/"
+            href="https://app.practicepal.ie/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold text-court-deep bg-lawn hover:bg-lawn/90 px-5 py-2 rounded-full transition-colors duration-200"
@@ -79,7 +79,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://luc1on.github.io/PracticePal/"
+            href="https://app.practicepal.ie/"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center text-sm font-semibold text-court-deep bg-lawn px-5 py-3 rounded-full"

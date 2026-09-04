@@ -18,7 +18,7 @@ export default function Footer() {
 
           <div className="flex flex-wrap items-center gap-6 text-sm">
             <a
-              href="https://luc1on.github.io/PracticePal/"
+              href="https://app.practicepal.ie/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sage hover:text-chalk transition-colors inline-flex items-center gap-1"

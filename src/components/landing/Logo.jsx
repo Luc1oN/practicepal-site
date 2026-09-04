@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LOGO_URL = 'https://luc1on.github.io/PracticePal/icons/icon-512.png';
+const LOGO_URL = 'https://app.practicepal.ie/icons/icon-512.png';
 
 export default function Logo({ size = 28, className = '' }) {
   return (

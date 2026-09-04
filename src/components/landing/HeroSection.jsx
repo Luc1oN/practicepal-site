@@ -297,7 +297,7 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://luc1on.github.io/PracticePal/"
+              href="https://app.practicepal.ie/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 text-base font-semibold text-court-deep bg-lawn hover:bg-lawn/90 px-8 py-4 rounded-full transition-all duration-200 hover:shadow-[0_0_30px_rgba(223,242,94,0.2)]"
