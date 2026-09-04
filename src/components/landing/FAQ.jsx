@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: 'How does the beta work?',
-    a: 'Signing up gets you one of a limited number of beta spots. You\'ll be added to a private WhatsApp group and an email list — that\'s where updates land, where you can flag bugs or ideas straight to the person building it, and where you can swap notes with other testers on what\'s working for their group. It\'s small and closed on purpose while the app is still taking shape, and it\'ll open up as PracticePal grows.',
+    a: 'Signing up gets you a beta spot, and the app is open to you straight away — build your first session tonight, racquets and balls are all you need. Shane emails every tester personally within a couple of days with what to try first and how to send feedback, and there is a "Tell Shane" link inside the app for anything that feels off. It\'s small and closed on purpose while the app is still taking shape, and it\'ll open up as PracticePal grows.',
   },
   {
     q: 'Is my data safe?',

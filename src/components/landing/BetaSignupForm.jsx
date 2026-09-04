@@ -41,7 +41,14 @@ export default function BetaSignupForm() {
               <Check size={28} className="text-lawn" />
             </div>
             <h3 className="font-heading text-2xl text-chalk mb-2">You're in, {form.name.split(' ')[0]}.</h3>
-            <p className="text-sage mb-6">Watch your inbox — we'll be in touch with next steps. Welcome to the team.</p>
+            <p className="text-sage mb-4">You can start right now: open PracticePal, pick a practice style, and build tonight's session. Racquets and balls are all you need.</p>
+            <a
+              href="https://luc1on.github.io/PracticePal/"
+              className="inline-flex items-center gap-2 text-base font-semibold text-court-deep bg-lawn hover:bg-lawn/90 px-6 py-3 rounded-full transition-all duration-200 mb-6"
+            >
+              Open PracticePal <ArrowRight size={18} />
+            </a>
+            <p className="text-sage-muted text-sm mb-6">Shane will email you personally within a couple of days with what to try first and how to send feedback. On your phone, add the app to your Home Screen from the share menu.</p>
             <div className="glass rounded-lg p-4 inline-block">
               <p className="text-[10px] text-sage-muted uppercase tracking-widest mb-1">Beta Tester</p>
               <p className="font-heading text-lg text-chalk">{form.name}</p>
